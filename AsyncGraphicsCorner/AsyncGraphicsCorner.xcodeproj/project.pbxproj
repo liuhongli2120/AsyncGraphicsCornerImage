@@ -13,6 +13,7 @@
 		F2F95F221DAD460100F4CFB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F95F201DAD460100F4CFB6 /* Main.storyboard */; };
 		F2F95F241DAD460100F4CFB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F95F231DAD460100F4CFB6 /* Assets.xcassets */; };
 		F2F95F271DAD460100F4CFB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F95F251DAD460100F4CFB6 /* LaunchScreen.storyboard */; };
+		F2F95F301DAD487300F4CFB6 /* UIImage+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F95F2F1DAD487300F4CFB6 /* UIImage+Extention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F2F95F231DAD460100F4CFB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2F95F261DAD460100F4CFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2F95F281DAD460100F4CFB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F95F2E1DAD487300F4CFB6 /* UIImage+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extention.h"; sourceTree = "<group>"; };
+		F2F95F2F1DAD487300F4CFB6 /* UIImage+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extention.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				F2F95F1B1DAD460100F4CFB6 /* AppDelegate.m */,
 				F2F95F1D1DAD460100F4CFB6 /* ViewController.h */,
 				F2F95F1E1DAD460100F4CFB6 /* ViewController.m */,
+				F2F95F2E1DAD487300F4CFB6 /* UIImage+Extention.h */,
+				F2F95F2F1DAD487300F4CFB6 /* UIImage+Extention.m */,
 				F2F95F201DAD460100F4CFB6 /* Main.storyboard */,
 				F2F95F231DAD460100F4CFB6 /* Assets.xcassets */,
 				F2F95F251DAD460100F4CFB6 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F95F301DAD487300F4CFB6 /* UIImage+Extention.m in Sources */,
 				F2F95F1F1DAD460100F4CFB6 /* ViewController.m in Sources */,
 				F2F95F1C1DAD460100F4CFB6 /* AppDelegate.m in Sources */,
 				F2F95F191DAD460100F4CFB6 /* main.m in Sources */,
