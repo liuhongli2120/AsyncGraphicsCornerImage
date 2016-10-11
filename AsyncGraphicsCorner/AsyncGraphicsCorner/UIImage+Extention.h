@@ -10,4 +10,6 @@
 
 @interface UIImage (Extention)
 
+- (UIImage *)hl_cornerImageWithSize:(CGSize)size;
+
 @end

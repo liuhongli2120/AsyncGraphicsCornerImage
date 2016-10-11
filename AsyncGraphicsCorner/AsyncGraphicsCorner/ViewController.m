@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+Extention.h"
 
 @interface ViewController ()
 
@@ -30,7 +31,8 @@
     [self.view addSubview:iv];
     
     UIImage *image = [UIImage imageNamed:@"28"];
-    iv.image = image;
+    iv.image = [image hl_cornerImageWithSize:iv.bounds.size];
+    
 }
 
 @end
