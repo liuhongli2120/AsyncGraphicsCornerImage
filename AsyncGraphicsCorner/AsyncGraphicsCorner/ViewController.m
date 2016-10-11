@@ -31,8 +31,12 @@
     [self.view addSubview:iv];
     
     UIImage *image = [UIImage imageNamed:@"28"];
-    iv.image = [image hl_cornerImageWithSize:iv.bounds.size fillColor:[UIColor whiteColor]];
     
+    [image hl_cornerImageWithSize:iv.bounds.size fillColor:[UIColor whiteColor] completion:^(UIImage *image) {
+        
+        //完成回调
+        iv.image = image;
+    }];
 }
 
 @end

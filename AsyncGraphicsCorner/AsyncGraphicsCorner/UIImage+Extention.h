@@ -10,6 +10,6 @@
 
 @interface UIImage (Extention)
 
-- (UIImage *)hl_cornerImageWithSize:(CGSize)size fillColor:(UIColor *)fillColor;
+- (void)hl_cornerImageWithSize:(CGSize)size fillColor:(UIColor *)fillColor completion:(void(^)(UIImage *image))completion;
 
 @end
