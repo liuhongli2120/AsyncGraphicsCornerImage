@@ -10,12 +10,16 @@
 
 @implementation UIImage (Extention)
 
-- (UIImage *)hl_cornerImageWithSize:(CGSize)size {
+- (UIImage *)hl_cornerImageWithSize:(CGSize)size fillColor:(UIColor *)fillColor{
     
     // 创建上下文
     UIGraphicsBeginImageContextWithOptions(size, YES, 0);
     
     CGRect rect = CGRectMake(0, 0, size.width, size.height);
+    
+    // 设置填充颜色
+    [fillColor setFill];
+    UIRectFill(rect);
     
     //贝塞尔路径绘制
     UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:rect];

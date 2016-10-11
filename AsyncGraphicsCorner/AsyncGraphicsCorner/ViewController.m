@@ -31,7 +31,7 @@
     [self.view addSubview:iv];
     
     UIImage *image = [UIImage imageNamed:@"28"];
-    iv.image = [image hl_cornerImageWithSize:iv.bounds.size];
+    iv.image = [image hl_cornerImageWithSize:iv.bounds.size fillColor:[UIColor whiteColor]];
     
 }
 
